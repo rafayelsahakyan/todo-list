@@ -5,7 +5,7 @@ Hi, I am Rafayel, here launch ToDo List project.
 
 ## Installation
 * Link: Just click [this link](https://admiring-lovelace-e97eeb.netlify.app/)
-* Git: git clone git@github.com:rafayelsahakyan/todo-list.git
+* Git: git clone https://github.com/rafayelsahakyan/todo-list.git
 
 ## Technologies for build
 * Html

@@ -1,0 +1,65 @@
+footer{
+    background:#343a40;
+    padding: 15px 0px;
+}
+footer button{
+    background: none;
+    border-style: none;
+    color: #fff;
+    margin-top: 5px;
+}
+footer button:focus{
+    outline: none;
+}
+footer img{
+    width: 20px;
+    margin-right: 6px;
+}
+footer>div:first-child{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer>div:first-child>ul:last-child li{
+    display: flex;
+    align-items: center;
+}
+footer>div:last-child{
+    color:#fff;
+    text-align: center;
+    font-size: 13px;
+}
+footer ul li{
+    list-style-type: none;
+    margin-top: 5px;
+}
+footer a{
+    color: #fff;
+}
+footer ul:first-child a{
+    display: inline-block;
+    position: relative;
+}
+
+footer ul:first-child a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: -2px;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+footer a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul:first-child a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}

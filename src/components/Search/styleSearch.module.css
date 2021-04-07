@@ -1,0 +1,39 @@
+.btns{
+    display: inline-grid;
+    width: 85px;
+}
+.titleDate{
+    width: 150px;
+}
+
+.dateBlock{
+    display: flex;
+    width: 48%;
+    justify-content: center;
+}
+.dateBlock>div:first-child{
+    width: calc(100% - 150px);
+}
+
+.datePickers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.datePickers input{
+    width: 100%;
+}
+
+.hideShow{
+    margin: 0 auto;
+    width: fit-content;
+    cursor: pointer;
+    padding: 8px 10px;
+    background: #005cbf;
+    color: #fff;
+    border-radius: 10px;
+}
+@media screen and (max-width: 800px) { 
+    .datePickers{flex-direction: column;}
+    .dateBlock{width: 100%;justify-content: flex-start;}
+}

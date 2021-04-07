@@ -1,0 +1,38 @@
+.active{
+    color: #ffdb4b !important;
+}
+.menuItem{
+    color: whitesmoke;
+    font-size: 18px;
+    margin-right: 12px;
+}
+.menuItem:hover{
+    text-decoration: none;
+    color: rgb(211, 211, 211);
+}
+.logoutBtn{
+    background: none;
+    padding: 0px;
+    border: none;
+    font-size: 18px;
+    color: #FFF;
+}
+.logoutBtn:hover{
+    background: none;
+    color: rgb(211, 211, 211);
+}
+.logoutBtn:focus{
+    outline: none;
+}
+.userInfo{
+    color: #FFF;
+    font-size: 18px;
+}
+.userInfoIcon{
+    color: #FFF;
+    margin-right: 5px;
+}
+@media screen and (max-width: 600px) { 
+    .menuResponse{display:flex;flex-direction: column !important;align-items: center;}
+    .menuResponse>div{display:flex;flex-direction: column !important;align-items: center;}
+}

@@ -1,0 +1,17 @@
+.singleTaskContent{
+    padding: 55px 35px;
+    min-height: calc(100vh - 224px);
+    background: #f7f7f7;
+    max-width: 100%;
+}
+.singleTaskContent h4{
+    text-align: center;
+    font-size: 25px;
+    color: #007bff;
+}
+.singleTaskContent span{
+    font-weight: 600;
+}
+.btns{
+    text-align: center;
+}

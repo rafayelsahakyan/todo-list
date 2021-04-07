@@ -1,0 +1,28 @@
+.tasks{
+    width: 100%;
+}
+.taskBody{
+    padding: 10px 15px;
+}
+.select{
+    border:1px solid #bb0000;
+}
+.taskBody p{
+    margin-bottom: 0px;
+    width: 85%;
+}
+.taskBody span{
+    font-weight: 600;
+}
+.taskBody a div{
+    width: 85%;
+}
+.buttons{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}

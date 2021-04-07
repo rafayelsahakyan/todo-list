@@ -1,0 +1,18 @@
+.aboutContent{
+    padding: 35px;
+    min-height: calc(100vh - 224px);
+    background: #f7f7f7;
+    max-width: 100%;
+}
+.aboutContent h2{
+    font-family: cursive;
+    margin-bottom: 15px;
+}
+.aboutContent p{
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+.aboutContent p span{
+    font-weight: 600;
+}

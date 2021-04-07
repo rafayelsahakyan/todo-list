@@ -1,7 +1,7 @@
 # About this project
 
 Hi, I am Rafayel, here launch ToDo List project. 
-For Backend click [this link](https://https://github.com/rafayelsahakyan/todo-list-api/)
+For Backend click [this link](https://github.com/rafayelsahakyan/todo-list-api)
 
 ## Installation
 * Link: Just click [this link](https://admiring-lovelace-e97eeb.netlify.app/)
